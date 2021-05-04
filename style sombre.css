@@ -1,0 +1,97 @@
+body {	color: white; /*couleur de notre texte. On utilse le nom d'une couleur (en), le code RGB ou l'ha=éxa*/
+		background-color: #152245; /*couleur de fond. Idem pour la couleur*/
+		font-family: cursive; /*police d'écriture (serif, sans-serif, cursive, moderna, fantasy, etc...)*/
+		font-size: 21px;/*Taille du texte. Se calcule en pixels (px)*/
+		line-height: 22px; /*Espacement entre les lignes. Idem*/
+		text-align: center;/*Aligner le texte au centre, à droite, à gauche (en anglais)*/
+		border: solid;/*Bordure autour d'un élément*/
+		border-color: red;/*couleur de la bordure*/
+		border-width: 6px;/*taille de la bordure*/
+		margin-right: 0px;/*taille de la marge exterieure (on peut utiliser margin-(côté) ou margin pour donner la même valeur à tous les côtés) Se calcule en pixels*/
+		padding: 10px 22px 0px 22px;/*taille de la interieure (on peut utiliser padding-(côté) ou padding pour donner la même valeur à tous les côtés) Se calcule en pixels*/
+		border-radius: 15px;}/*Arrondissement des angles (img, ifgrame, border, etc)*/
+
+h1 {	color: #06fbff; 
+		font-family: monospace; 
+		font-size: 72px;
+		line-height: 70px;
+		font-variant: small-caps; /*transforme les lettres en petites majuscules*/
+		letter-spacing: 1px; /*Espacement entre les lettres. Se compte en px*/
+		border: solid;
+		border-width: 6px; 
+		border-color: red;
+		margin: 5px 170px;
+		margin-top: 32px;
+		padding-top: 3px;
+		padding-bottom: 6px;
+		border-radius: 15px;
+		box-shadow: 7px 7px 15px #f5ebee;}/*Règle l'ombre. Ombre à droite. Ombre en bas. Transparence de l'ombre. Couleur de l'ombre. Se calcule en Px*/
+
+h2 {	font-family: monospace;
+		font-size: 38px;
+		letter-spacing: -1px;
+		line-height: 25px;
+		font-variant: small-caps;
+		line-height: 40px;
+		border: solid;
+		border-color: transparent;
+		background-color: #f5ebee;
+		color: #152245;
+		border-radius: 15px;
+		margin-left: 44px;
+		margin-right: 44px;
+		margin-bottom: 42px;
+		box-shadow: 7px 7px 15px black;
+		padding: 5px 6px 5px 6px;
+		}
+
+a  {	color: white;
+		text-decoration: none; /*enlève la décoration du texte (soulignement pour un lien par exempke)*/
+		}
+a:hover { color: #06fbff; } /*hover=quand on passe dessus*/
+
+ol {	line-height: 30px;
+		list-style-position: inside; /*Permet aux puces d'être alignées à côté de leur texte*/
+		}
+
+ul {	list-style-position: inside;
+		margin-left: 204px;
+		text-align: left;
+		margin-bottom: 35px;}
+
+h5 {	text-align: left;
+		font-weight: lighter;} /*modifie l'épasseur des lettres, lighter = affiner bolder = épaissir*/
+
+li {	margin-top: 2px;}
+li:hover {color: #06fbff	}
+
+iframe {border: solid;
+		border-color: red; 	
+		border-width: 10px;
+		border-radius: 15px;
+		box-shadow: 11px 9px 15px white;
+		margin-left: -6px;
+		}
+iframe:hover { 	border: solid;
+				border-color: #f5ebee; 	
+		 		border-width: 10px; 
+		 		background-color: #f5ebee;
+		 		box-shadow: 12px 9px 15px red;}
+
+h6 {	color: transparent;
+		border: solid;
+		border-color: transparent;
+		margin-top: 0px;
+		margin-bottom: 2px;}
+
+
+.paragespace {	margin-bottom: -17px;}
+
+img {	border-radius: 15px;
+		box-shadow: 5px 3px 15px white;}
+
+.paragespace2 {	margin-bottom: 11px;}
+
+.paragespace3 {	margin-top: -15px;}
+
+.ML {	color: #06fbff;}
